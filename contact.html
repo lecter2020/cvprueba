@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <h1>Aníbal A. Báez</h1>
+    <p>Cel: 3515904563</p>
+    <p>Email: anibal.ariel.baez@outlook.es</p>
+    <br>
+    <hr>
+    <form action="mailto:anibal.ariel.baez@gmail.com" method="POST" enctype="text/plain">
+        <label>Su Nombre</label>
+        <input type="text" name="vName" value="">
+        <br>
+        <label>Su Apellido</label>
+        <input type="text" name="vApellido" value="">
+        <br>
+        <label>Su Email</label>
+        <input type="email" name="vMail" value="">
+        <br>
+        <label>Su Mensaje</label>
+        <br>
+        <textarea name="vMensaje" cols="30" rows="10"></textarea>
+        <br>
+        <label>Desea que AppGo lo contacte telefónicamente?</label>
+        <input type="radio" name="vRadio">
+        <br>
+        <label>Indique un día y horario de contacto</label>
+        <input type="datetime-local" name="vDiaHora" value="">
+        <br>
+        <label>Desea adjuntar algun archivo?</label>
+        <input type="file" name="vFile" value="">
+        <br>
+        <input type="submit" name="">
+        <input type="reset" name="">
+        <hr>
+    </form>
+    <p><strong><a href="index.html">Volver</a></strong></p>
+</body>
+</html>
